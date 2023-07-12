@@ -1,0 +1,13 @@
+
+  {
+    "name": "planets-vande",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd Planets-vande.client && npm i",
+      "setup:server": "cd Planets-vande && npm i",
+      "start": "node Planets-vande/index.js"
+    }
+  }
+  
